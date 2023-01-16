@@ -13,10 +13,10 @@ In this repo, I split the topic into 2 smaller topics:
 ### 1. Standard optimization
 In this section, I note all provided functions/attributes from the C++ standard libraries that can offer better runtime and more cache-friendly.
 
-| No.       | Name      | Note    |
-| ------    | ------    | ------  |
-| 1         | `likely`, `unlikely` attributes | [README](std_optim/opt_1/README.md) |
-| 2         | `noexecpt` operator | [README](std_optim/opt_2/README.md) |
+| No.                       | Name                              | Note    |
+| ------                    | ------                            | ------  |
+| [opt_1](std_optim/opt_1)  | `likely`, `unlikely` attributes   | [README](std_optim/opt_1/README.md) |
+| [opt_2](std_optim/opt_2)  | `noexecpt` operator               | [README](std_optim/opt_2/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
