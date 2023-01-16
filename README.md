@@ -3,14 +3,14 @@ This repository is a collection of everything relating to the topic "Optimizatio
 
 ## Overview
 In this repo, I split the topic into 2 smaller topics:  
-1. A collection of standard provided functions/attributes/methods to optimize cpp code.
+1. A collection of standard provided functions or attributes to optimize cpp code.
 2. A collection of valuable methods/techniques from several docs to optimize cpp code.
 
 ## 1. Standard optimization
-In this section, I note all provided functions/attributes/methods from the C++ standard libraries that can offer better runtime and memory consumption.
+In this section, I note all provided functions/attributes from the C++ standard libraries that can offer better runtime and more cache-friendly.
 
 ## 2. External optimzation
-In this secton, it is a collection of several techniques or methods that I've read on books, papers or on some forums.
+In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
 
 ## Useful documentation
 - [Effective Modern C++](docs/Effective_Modern_C__.pdf)
