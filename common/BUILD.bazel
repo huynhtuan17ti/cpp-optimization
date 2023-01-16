@@ -1,0 +1,11 @@
+# https://docs.bazel.build/versions/master/be/c-cpp.html#cc_library
+cc_library(
+    name = "common_lib",
+    srcs = glob([
+        "*.c",
+        "*.cpp",
+    ]),
+    hdrs = glob(["*.h"]),
+    strip_include_prefix = ".",
+    visibility = ["//visibility:public"],
+)
