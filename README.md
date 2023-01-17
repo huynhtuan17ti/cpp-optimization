@@ -10,10 +10,6 @@ In this repo, I split the topic into 2 smaller topics:
 1. A collection of standard provided functions or attributes to optimize cpp code.
 2. A collection of valuable methods/techniques from several docs to optimize cpp code.
 
-| Id.                           | Title                                                                                | Note    |
-| ------                        | ------                                                                               | ------  |
-| [opt_001](ext_optim/opt_001)  | Explicitly disallow the use of compiler-generated <br /> functions you do not want   | [README](ext_optim/opt_001/README.md) |
-
 ### 1. Standard optimization
 In this section, I note all provided functions/attributes from the C++ standard libraries that can offer better runtime and more cache-friendly.
 
@@ -25,6 +21,10 @@ In this section, I note all provided functions/attributes from the C++ standard 
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
+
+| Id.                           | Title                                                                                | Note    |
+| ------                        | ------                                                                               | ------  |
+| [opt_001](ext_optim/opt_001)  | Explicitly disallow the use of compiler-generated <br /> functions you do not want   | [README](ext_optim/opt_001/README.md) |
 
 ## Useful documentation
 - [Effective Modern C++](docs/Effective_Modern_C__.pdf)
