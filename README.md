@@ -17,6 +17,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | ------                    | ------                            | ------  |
 | [opt_1](std_optim/opt_1)  | `likely`, `unlikely` attributes   | [README](std_optim/opt_1/README.md) |
 | [opt_2](std_optim/opt_2)  | `noexecpt` operator               | [README](std_optim/opt_2/README.md) |
+| [opt_3](std_optim/opt_3)  | `variant` class template          | [README](std_optim/opt_3/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.

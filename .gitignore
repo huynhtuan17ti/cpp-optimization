@@ -1,2 +1,5 @@
 # bazel ignore
 bazel*
+
+# vscode
+.vscode/
