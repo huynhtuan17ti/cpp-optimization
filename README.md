@@ -10,14 +10,18 @@ In this repo, I split the topic into 2 smaller topics:
 1. A collection of standard provided functions or attributes to optimize cpp code.
 2. A collection of valuable methods/techniques from several docs to optimize cpp code.
 
+| Id.                           | Title                                                                                | Note    |
+| ------                        | ------                                                                               | ------  |
+| [opt_001](ext_optim/opt_001)  | Explicitly disallow the use of compiler-generated <br /> functions you do not want   | [README](ext_optim/opt_001/README.md) |
+
 ### 1. Standard optimization
 In this section, I note all provided functions/attributes from the C++ standard libraries that can offer better runtime and more cache-friendly.
 
-| No.                       | Name                              | Note    |
-| ------                    | ------                            | ------  |
-| [opt_1](std_optim/opt_1)  | `likely`, `unlikely` attributes   | [README](std_optim/opt_1/README.md) |
-| [opt_2](std_optim/opt_2)  | `noexecpt` operator               | [README](std_optim/opt_2/README.md) |
-| [opt_3](std_optim/opt_3)  | `variant` class template          | [README](std_optim/opt_3/README.md) |
+| Id.                           | Title                             | Note    |
+| ------                        | ------                            | ------  |
+| [opt_001](std_optim/opt_001)  | `likely`, `unlikely` attributes   | [README](std_optim/opt_001/README.md) |
+| [opt_002](std_optim/opt_002)  | `noexecpt` operator               | [README](std_optim/opt_002/README.md) |
+| [opt_003](std_optim/opt_003)  | `variant` class template          | [README](std_optim/opt_003/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
