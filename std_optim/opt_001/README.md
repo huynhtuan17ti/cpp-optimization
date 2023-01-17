@@ -5,7 +5,7 @@ Allow the compiler to optimize for the case where paths of execution including t
 
 ### Run with bazel
 ```bash
-bazel run //std_optim/opt_1:exec
+bazel run //std_optim/opt_001:exec
 ```
 
 ### Experiment

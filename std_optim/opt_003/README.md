@@ -31,7 +31,7 @@ variant<int, float>
 
 ### Run with bazel
 ```bash
-bazel run //std_optim/opt_3:exec
+bazel run //std_optim/opt_003:exec
 ```
 
 ### Experiment

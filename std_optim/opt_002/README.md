@@ -8,7 +8,7 @@ This operator does not offer better runtime or memory consumption, but it will r
 
 ### Run with bazel
 ```bash
-bazel run //std_optim/opt_2:exec
+bazel run //std_optim/opt_002:exec
 ```
 
 ### Experiment
