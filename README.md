@@ -25,6 +25,7 @@ In this secton, it is a collection of several techniques or methods that I've re
 | Id.                           | Title                                                                                | Note    |
 | ------                        | ------                                                                               | ------  |
 | [opt_001](ext_optim/opt_001)  | Explicitly disallow the use of compiler-generated <br /> functions you do not want   | [README](ext_optim/opt_001/README.md) |
+| [opt_002](ext_optim/opt_002)  | Avoiding duplication in `const` and `non-const` <br /> member functions              | [README](ext_optim/opt_002/README.md) |
 
 ## Useful documentation
 - [Effective Modern C++](docs/Effective_Modern_C__.pdf)
