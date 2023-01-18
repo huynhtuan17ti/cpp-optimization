@@ -44,7 +44,7 @@ int main() {
     tb[2] = 'T';
     cout << "After operation: " << tb[2] << '\n';
 
-    cout << "[*] TextBlockV1 object" << '\n';
+    cout << "[*] TextBlockV2 object" << '\n';
     cout << "Before operation: " << tbV2[2] << '\n';
     tbV2[2] = 'T';
     cout << "After operation: " << tbV2[2] << '\n';

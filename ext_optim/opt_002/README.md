@@ -13,7 +13,7 @@ bazel run //ext_optim/opt_002:exec
 [*] TextBlockV1 object
 Before operation: t
 After operation: T
-[*] TextBlockV1 object
+[*] TextBlockV2 object
 Before operation: t
 After operation: T
 ```
