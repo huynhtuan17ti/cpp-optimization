@@ -18,6 +18,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | [opt_001](std_optim/opt_001)  | `likely`, `unlikely` attributes   | [README](std_optim/opt_001/README.md) |
 | [opt_002](std_optim/opt_002)  | `noexecpt` operator               | [README](std_optim/opt_002/README.md) |
 | [opt_003](std_optim/opt_003)  | `variant` class template          | [README](std_optim/opt_003/README.md) |
+| [opt_004](std_optim/opt_004)  | `static_cast` conversion          | [README](std_optim/opt_004/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
