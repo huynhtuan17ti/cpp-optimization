@@ -4,7 +4,7 @@
 `std::move` is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object.
 
 ### Why we should use `std::move`?
-[stackoverflow answer](https://stackoverflow.com/questions/3413470/what-is-stdmove-and-when-should-it-be-used)
+[stackoverflow answer](https://stackoverflow.com/a/27026280)
 
 ### Run with bazel
 ```bash
