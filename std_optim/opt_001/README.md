@@ -10,10 +10,10 @@ bazel run //std_optim/opt_001:exec
 
 ### Experiment
 ```bash
-Result: 501846
-Time: 88.0000000000 nanosecs (without attributes)
-Result: 501846
-Time: 29.0000000000 nanosecs (with attributes)
+Result: 499326
+Time: 13270378 nanosecs (without attributes)
+Result: 499326
+Time: 12760828 nanosecs (with attributes)
 ```
 ### References
 - [cppreference](https://en.cppreference.com/w/cpp/language/attributes/likely)

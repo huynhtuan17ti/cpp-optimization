@@ -40,11 +40,11 @@ int main() {
 
     auto benchmark = [&](function<int(vector<int>&)> func, string rem) {
         const auto start = std::chrono::high_resolution_clock::now();
-        const std::chrono::duration<long double> diff =
-            std::chrono::high_resolution_clock::now() - start;
         int result = func(queries);
         cout << "Result: " << result << '\n';
-        cout << "Time: " << fixed << setprecision(10) << diff.count() * 1e9
+        const std::chrono::duration<long double> diff =
+            std::chrono::high_resolution_clock::now() - start;
+        cout << "Time: " << int(diff.count() * 1e9)
                   << " nanosecs " << rem << '\n'; 
     };
 
