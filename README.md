@@ -31,6 +31,7 @@ In this secton, it is a collection of several techniques or methods that I've re
 | [opt_002](ext_optim/opt_002)  | Avoiding duplication in `const` and `non-const` <br /> member functions              | [README](ext_optim/opt_002/README.md) |
 | [opt_003](ext_optim/opt_003)  | Advantage of cache coherency                                                         | [README](ext_optim/opt_003/README.md) |
 | [opt_004](ext_optim/opt_004)  | Data structure alignment                                                             | [README](ext_optim/opt_004/README.md) |
+| [opt_005](ext_optim/opt_005)	| SIMD (single instruction, multiple data)											   | [README](ext_optim/opt_005/README.md) |
 
 ## Useful documentation
 - [Effective Modern C++](docs/Effective_Modern_C__.pdf)
