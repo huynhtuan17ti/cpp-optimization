@@ -20,6 +20,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | [opt_003](std_optim/opt_003)  | `variant` class template          | [README](std_optim/opt_003/README.md) |
 | [opt_004](std_optim/opt_004)  | `static_cast` conversion          | [README](std_optim/opt_004/README.md) |
 | [opt_005](std_optim/opt_005)  | `move` function                   | [README](std_optim/opt_005/README.md) |
+| [opt_006](std_optim/opt_006)	| `constexpr` specifier				| [README](std_optim/opt_006/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
