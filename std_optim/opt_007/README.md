@@ -5,7 +5,7 @@ Inserts a new element at the end of the vector, right after its current last ele
 
 ### What is the difference between `push_back` and `emplace_back`?
 - While performing `push_back`, the object is copied and moved into the container.
-- Same as `push_back`, `emplace_back` is still inserting a object but the variadic arguments will be forwarded into the constructor of appended item.
+- Same as `push_back`, `emplace_back` is still inserting an object but the variadic arguments will be forwarded into the constructor of appended item.
 
 ### Run with bazel
 ```bash
