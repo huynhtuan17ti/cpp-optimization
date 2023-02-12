@@ -1,7 +1,8 @@
 ## `move` (since C++14 or C++11)
 
 ### Short introduce
-`std::move` is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object.
+`std::move` is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object.  
+Note that `std::move` does cast not move. According to `Effective Modern C++`, item 23, `std::move` casts its arguments to an **rvalue**.
 
 ### Why we should use `std::move`?
 [stackoverflow answer](https://stackoverflow.com/a/27026280)
