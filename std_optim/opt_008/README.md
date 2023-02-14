@@ -1,4 +1,3 @@
-
 ## `string_view` (since C++17)
 
 ### Short introduce

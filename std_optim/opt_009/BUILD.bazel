@@ -1,0 +1,15 @@
+# https://docs.bazel.build/versions/master/be/c-cpp.html#cc_binary
+cc_binary(
+    name = "multi_exec",
+    srcs = ["multi_thread_code.cpp"],
+    deps = ["//common:common_lib"],
+    linkopts = [
+        "-lpthread",
+    ]
+)
+
+cc_binary(
+    name = "single_exec",
+    srcs = ["single_thread_code.cpp"],
+    deps = ["//common:common_lib"],
+)
