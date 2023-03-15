@@ -20,7 +20,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | [opt_003](std_optim/opt_003)  | `variant` class template              | [README](std_optim/opt_003/README.md) |
 | [opt_004](std_optim/opt_004)  | `static_cast` conversion              | [README](std_optim/opt_004/README.md) |
 | [opt_005](std_optim/opt_005)  | `move` function                       | [README](std_optim/opt_005/README.md) |
-| [opt_006](std_optim/opt_006)	| `constexpr`and `consteval` specifier	| [README](std_optim/opt_006/README.md) |
+| [opt_006](std_optim/opt_006)	| `constexpr` and `consteval` specifier	| [README](std_optim/opt_006/README.md) |
 | [opt_007](std_optim/opt_007)	| `emplace_back` in vector			    | [README](std_optim/opt_007/README.md)	|
 | [opt_008](std_optim/opt_008)  | `string_view`                         | [README](std_optim/opt_008/README.md) |
 | [opt_009](std_optim/opt_009)  | `thread`                              | [README](std_optim/opt_009/README.md) |
