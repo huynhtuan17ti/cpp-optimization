@@ -6,11 +6,11 @@
 using namespace std;
 
 int main() {
-	constexpr int N = 1e6;
-	using KeyValue = pair<string, int>;
+    constexpr int N = 1e6;
+    using KeyValue = pair<string, int>;
 
     auto benchmark_push_back = []() {
-		vector<KeyValue> test;
+        vector<KeyValue> test;
         const auto start = std::chrono::high_resolution_clock::now();
         
         for(int x = 1; x <= N; ++x)
@@ -23,7 +23,7 @@ int main() {
     };
 
     auto benchmark_emplace_back = []() {
-		vector<KeyValue> test;
+        vector<KeyValue> test;
         const auto start = std::chrono::high_resolution_clock::now();
         
         for(int x = 1; x <= N; ++x)
@@ -35,9 +35,9 @@ int main() {
         cout << "Time: " << int(diff.count() * 1e9) << " nanosecs (emplace_back)" << '\n'; 
     };
 
-	for(int cnt = 1; cnt <= 5; ++cnt) {
-		cout << "Run #" << cnt << ":\n";
-		benchmark_push_back();
-		benchmark_emplace_back();
-	}
+    for(int cnt = 1; cnt <= 5; ++cnt) {
+        cout << "Run #" << cnt << ":\n";
+        benchmark_push_back();
+        benchmark_emplace_back();
+    }
 }
