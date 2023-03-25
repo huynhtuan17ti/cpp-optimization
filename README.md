@@ -24,6 +24,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | [opt_007](std_optim/opt_007)	| `emplace_back` in vector			    | [README](std_optim/opt_007/README.md)	|
 | [opt_008](std_optim/opt_008)  | `string_view`                         | [README](std_optim/opt_008/README.md) |
 | [opt_009](std_optim/opt_009)  | `thread`                              | [README](std_optim/opt_009/README.md) |
+| [opt_010](std_optim/opt_010)  | execution policies                    | [README](std_optim/opt_010/README.md) |
 
 ### 2. External optimzation
 In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
