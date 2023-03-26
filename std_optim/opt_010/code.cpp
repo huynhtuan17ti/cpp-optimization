@@ -3,10 +3,9 @@
 #include <execution>
 #include <iostream>
 #include <numeric>
-#include <pstl/glue_execution_defs.h>
 #include <string_view>
 #include <vector>
-#include "random.h"
+#include "common/random.h"
 
 int main() {
     constexpr int N = 1e5;

@@ -4,7 +4,7 @@
 #include <chrono>
 #include <iomanip>
 
-#include "random.h"
+#include "common/random.h"
 
 using namespace std;
 

@@ -2,7 +2,7 @@
 #include <string>
 #include <chrono>
 #include <iostream>
-#include "random.h"
+#include "common/random.h"
 
 inline void string_get_substr(std::string s) {
     std::string substr = s.substr(1000, 10000);
