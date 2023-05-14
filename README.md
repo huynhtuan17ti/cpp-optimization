@@ -7,11 +7,11 @@ This repository is a collection of everything relating to the topic "Optimizatio
 
 ## Overview
 In this repo, I split the topic into 2 smaller topics:  
-1. A collection of standard provided functions or attributes to optimize cpp code.
+1. A collection of standard built-in functions or attributes to optimize cpp code.
 2. A collection of valuable methods/techniques from several docs to optimize cpp code.
 
 ### 1. Standard optimization
-In this section, I note all provided functions/attributes from the C++ standard libraries that can offer better runtime and more cache-friendly.
+In this section, I note all provided optimization from C++ standard libraries that can offer better runtime and more cache-friendly.
 
 | Id.                           | Title                                 | Note    |
 | ------                        | ------                                | ------  |
@@ -27,7 +27,7 @@ In this section, I note all provided functions/attributes from the C++ standard 
 | [opt_010](std_optim/opt_010)  | execution policies                    | [README](std_optim/opt_010/README.md) |
 
 ### 2. External optimzation
-In this secton, it is a collection of several techniques or methods that I've read on books, papers or on my own experiments.
+In this secton, it is a collection of several techniques or methods that I've read on books, papers or in my own experiments.
 
 | Id.                           | Title                                                                                | Note    |
 | ------                        | ------                                                                               | ------  |
@@ -36,6 +36,7 @@ In this secton, it is a collection of several techniques or methods that I've re
 | [opt_003](ext_optim/opt_003)  | Advantage of cache coherency                                                         | [README](ext_optim/opt_003/README.md) |
 | [opt_004](ext_optim/opt_004)  | Data structure alignment                                                             | [README](ext_optim/opt_004/README.md) |
 | [opt_005](ext_optim/opt_005)	| SIMD (single instruction, multiple data)											   | [README](ext_optim/opt_005/README.md) |
+| [opt_006](ext_optim/opt_006)  | Bitset optimization                                                                  | [README](ext_optim/opt_006/README.md) |
 
 ## Useful documentation
 - [Effective Modern C++](docs/Effective_Modern_C__.pdf)
