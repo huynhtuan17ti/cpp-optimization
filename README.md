@@ -4,6 +4,7 @@ This repository is a collection of everything relating to the topic "Optimizatio
 ## Note
 - All codes of this project can be run with [bazel](https://bazel.build/) (A powerful compile tool developed by Google).
 - Some of codes must be compiled with `C++20`.
+- Currenty using [Google Benchmark](https://github.com/google/benchmark) to estimate results.
 
 ## Overview
 In this repo, I split the topic into 2 smaller topics:  
