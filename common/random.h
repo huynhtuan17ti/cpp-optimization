@@ -1,14 +1,13 @@
 #pragma once
 #include <random>
 
-namespace cm_random{
+namespace cm_random {
 
-std::random_device device;
-std::mt19937 generator(device());
-
-int IntRand(int lo, int hi) {
-    std::uniform_int_distribution<int> rd(lo, hi);
-    return rd(generator);
+inline int IntRand(int lo, int hi, int seed = 2023) {
+  std::seed_seq seed_{seed};
+  std::default_random_engine eng{seed_};
+  std::uniform_int_distribution<int> rd(lo, hi);
+  return rd(eng);
 }
 
-} // cm_random namespace
+}  // namespace cm_random

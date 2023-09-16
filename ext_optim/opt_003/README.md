@@ -10,8 +10,9 @@ bazel run //ext_optim/opt_003:exec
 
 ### Experiment
 ```bash
-12502814
-Time: 114 nanosecs (without cache coherency)
-12502814
-Time: 32 nanosecs (with cache coherency)
+----------------------------------------------------------------------
+Benchmark                            Time             CPU   Iterations
+----------------------------------------------------------------------
+BM_cache_conherency           11538390 ns     11520296 ns           60
+BM_without_cache_conherency   73996782 ns     73862733 ns           10
 ```

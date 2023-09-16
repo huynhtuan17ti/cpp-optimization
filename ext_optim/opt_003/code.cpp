@@ -1,48 +1,46 @@
-#include <iostream>
-#include <vector>
+#include <benchmark/benchmark.h>
 #include <chrono>
 #include <functional>
+#include <iostream>
+#include <vector>
 
-#include "random.h"
+#include "common/random.h"
 
 using namespace std;
-const int N = 5e3;
+constexpr int N = 5e3;
+constexpr int seed = 2810;
 
 int a[N][N];
 
 inline void init() {
-    for(int i = 0; i < N; i++)
-        for(int j = 0; j < N; j++)
-            a[i][j] = cm_random::IntRand(1, 1e8);
+  for (int i = 0; i < N; i++)
+    for (int j = 0; j < N; j++)
+      a[i][j] = cm_random::IntRand(1, 1e8, seed);
 }
 
-inline void iterationV1() {
+static void BM_without_cache_conherency(benchmark::State& state) {
+  init();
+  for (auto _ : state) {
     int cnt = 0;
-    for(int j = 0; j < N; j++)
-        for(int i = 0; i < N; i++)
-            cnt += (a[i][j] % 2);
-    cout << cnt << '\n';
+    for (int j = 0; j < N; j++)
+      for (int i = 0; i < N; i++)
+        cnt += (a[i][j] % 2);
+    benchmark::DoNotOptimize(cnt);
+  }
 }
 
-inline void iterationV2() {
+static void BM_cache_conherency(benchmark::State& state) {
+  init();
+  for (auto _ : state) {
     int cnt = 0;
-    for(int i = 0; i < N; i++)
-        for(int j = 0; j < N; j++)
-            cnt += (a[i][j] % 2);
-    cout << cnt << '\n';
+    for (int i = 0; i < N; i++)
+      for (int j = 0; j < N; j++)
+        cnt += (a[i][j] % 2);
+    benchmark::DoNotOptimize(cnt);
+  }
 }
 
-int main() {
-    init();
-    auto benchmark = [&](function<void()> func, string rem) {
-        const auto start = chrono::high_resolution_clock::now();
-        const chrono::duration<long double> diff =
-                chrono::high_resolution_clock::now() - start;
-        func();
-        cout << "Time: " << diff.count() * 1e9
-                  << " nanosecs " << rem << '\n'; 
-    };
+BENCHMARK(BM_cache_conherency);
+BENCHMARK(BM_without_cache_conherency);
 
-    benchmark(iterationV1, "(without cache coherency)");
-    benchmark(iterationV2, "(with cache coherency)");
-}
+BENCHMARK_MAIN();

@@ -10,8 +10,11 @@ bazel run //ext_optim/opt_005:exec
 
 ### Experiment
 ```bash
-Time: 10713053 nanosecs (regular vector adding operation)
-Time: 4840055 nanosecs (SIMD vector adding operation)
+----------------------------------------------------------------
+Benchmark                      Time             CPU   Iterations
+----------------------------------------------------------------
+BM_regular_vector_add     461053 ns       461052 ns         1517
+BM_simd_vector_add        336029 ns       336026 ns         2071
 ```
 ### References
 - [wikipedia](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)

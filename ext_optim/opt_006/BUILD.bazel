@@ -2,6 +2,8 @@
 cc_binary(
     name = "exec",
     srcs = ["code.cpp"],
-    deps = ["//common:common_lib"],
-	copts = ["-mavx"],
+    deps = [
+        "//common:common_lib",
+        "@benchmark//:benchmark_main",
+    ],
 )
